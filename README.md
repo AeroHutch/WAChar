@@ -15,7 +15,7 @@ Because this script utilizes `moviepy` to render video assets, **FFmpeg** must b
 
 ## Installation & Setup
 
-### 🍏 macOS & 🐧 Linux
+### macOS & Linux
 
 1. **Clone or download** this repository to your local machine.
 2. Open your Terminal and navigate to the project directory:
