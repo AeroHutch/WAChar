@@ -1,0 +1,2 @@
+# WAChar
+Weakly Animated Character
