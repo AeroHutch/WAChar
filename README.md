@@ -5,7 +5,7 @@ Before setting up **WAChar**, ensure your system has **Python 3.8 to 3.11** inst
 *(Note: `webrtcvad` may occasionally face compilation hurdles on Python 3.12+ on certain operating systems without extra build tools).*
 
 ### Cross-Platform Core Requirement: FFmpeg
-Because this script utilizes `moviepy` to render video assets, **FFmpeg** must be installed on your system[cite: 1]. 
+Because this script utilizes `moviepy` to render video assets, **FFmpeg** must be installed on your system. 
 
 * **macOS:** `brew install ffmpeg`
 * **Linux (Ubuntu/Debian):** `sudo apt update && sudo apt install ffmpeg`
@@ -71,15 +71,13 @@ Before running the script, make sure your workspace looks like this:
 ```
 WAChar/
 ├── new.py             # The main python script
-├── silent.png         # Image shown when NO speech is detected
-├── talking.png        # Image shown WHEN speech is detected
+├── silent.png         # Image shown when NO sound is detected
+├── talking.png        # Image shown WHEN sound is detected
 └── recordings/        # Directory containing your audio files
     └── episode1.mp3
 ```
 
 > **Important:** Ensure you place your `silent.png` and `talking.png` directly in the root directory alongside `new.py`. The script will automatically generate the `recordings/` directory on its first run if it doesn't already exist.
-> 
-> 
 
 ---
 
