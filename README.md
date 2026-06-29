@@ -17,7 +17,7 @@ Because this script utilizes `moviepy` to render video assets, **FFmpeg** must b
 
 ### macOS & Linux
 
-1. **Clone or download** this repository to your local machine.
+1. **Download** the newest version to your local machine.
 2. Open your Terminal and navigate to the project directory:
 ```bash
 cd path/to/WAChar
@@ -40,7 +40,7 @@ pip install numpy soundfile webrtcvad moviepy scipy
 
 ### Windows
 
-1. **Clone or download** this repository to your local machine.
+1. **Download** the newest version to your local machine.
 2. Open **Command Prompt** or **PowerShell** and navigate to the project directory:
 ```cmd
 cd path\to\WAChar
