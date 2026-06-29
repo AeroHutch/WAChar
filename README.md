@@ -70,14 +70,14 @@ Before running the script, make sure your workspace looks like this:
 
 ```
 WAChar/
-├── new.py             # The main python script
+├── script.py             # The main python script
 ├── silent.png         # Image shown when NO sound is detected
 ├── talking.png        # Image shown WHEN sound is detected
 └── recordings/        # Directory containing your audio files
     └── episode1.mp3
 ```
 
-> **Important:** Ensure you place your `silent.png` and `talking.png` directly in the root directory alongside `new.py`. The script will automatically generate the `recordings/` directory on its first run if it doesn't already exist.
+> **Important:** Ensure you place your `silent.png` and `talking.png` directly in the root directory alongside `script.py`. The script will automatically generate the `recordings/` directory on its first run if it doesn't already exist.
 
 ---
 
@@ -86,7 +86,7 @@ WAChar/
 1. Activate your virtual environment if it isn't already (`source venv/bin/activate` or `.\venv\Scripts\activate`).
 2. Run the main script:
 ```bash
-python new.py
+python script.py
 ```
 3. The interactive command-line interface will display a list of all `.mp3` files found inside the `recordings/` folder.
 4. Type the number corresponding to your chosen file and hit **Enter**.
@@ -160,14 +160,14 @@ Zorg ervoor dat uw werkruimte er als volgt uitziet voordat u het script uitvoert
 
 ```
 WAChar/
-├── new.py # Het hoofdscript in Python
+├── script.py # Het hoofdscript in Python
 ├── silent.png # Afbeelding die wordt weergegeven wanneer er GEEN geluid wordt gedetecteerd
 ├── talking.png # Afbeelding die wordt weergegeven WANNEER er geluid wordt gedetecteerd
 └── recordings/ # Map met je audiobestanden
     └── episode1.mp3
 ```
 
-> **Belangrijk:** Zorg ervoor dat je je `silent.png` en `talking.png` rechtstreeks in de hoofdmap plaatst, naast `new.py`. Het script maakt automatisch de map `recordings/` aan bij de eerste keer uitvoeren, als deze nog niet bestaat.
+> **Belangrijk:** Zorg ervoor dat je je `silent.png` en `talking.png` rechtstreeks in de hoofdmap plaatst, naast `script.py`. Het script maakt automatisch de map `recordings/` aan bij de eerste keer uitvoeren, als deze nog niet bestaat.
 
 ---
 
@@ -176,7 +176,7 @@ WAChar/
 1. Activeer je virtuele omgeving als deze nog niet is geactiveerd (`source venv/bin/activate` of `.\venv\Scripts\activate`).
 2. Voer het hoofdscript uit:
 ```bash
-python new.py
+python script.py
 ```
 3. De interactieve opdrachtregelinterface toont een lijst met alle `.mp3`-bestanden in de map `recordings/`.
 4. Typ het nummer van het gewenste bestand en druk op **Enter**.
@@ -240,14 +240,14 @@ pip install numpy soundfile webrtcvad moviepy scipy
 Komut dosyasını çalıştırmadan önce, çalışma alanınızın şu şekilde göründüğünden emin olun: Bu:
 ```
 WAChar/
-├── new.py # Ana Python betiği
+├── script.py # Ana Python betiği
 ├── silent.png # Ses algılanmadığında gösterilen resim
 ├── talking.png # Ses algılandığında gösterilen resim
 └── recordings/ # Ses dosyalarınızı içeren dizin
     └── episode1.mp3
 ```
 
-> **Önemli:** `silent.png` ve `talking.png` dosyalarınızı `new.py` ile birlikte doğrudan kök dizine yerleştirdiğinizden emin olun. Betik, `recordings/` dizinini ilk çalıştırıldığında otomatik olarak oluşturacaktır, eğer zaten mevcut değilse.
+> **Önemli:** `silent.png` ve `talking.png` dosyalarınızı `script.py` ile birlikte doğrudan kök dizine yerleştirdiğinizden emin olun. Betik, `recordings/` dizinini ilk çalıştırıldığında otomatik olarak oluşturacaktır, eğer zaten mevcut değilse.
 
 ---
 
@@ -256,7 +256,7 @@ WAChar/
 1. Sanal ortamınızı zaten etkin değilse etkinleştirin (`source venv/bin/activate` veya `.\venv\Scripts\activate`).
 2. Ana betiği çalıştırın:
 ```bash
-python new.py
+python script.py
 ```
 3. Etkileşimli komut satırı arayüzü, `recordings/` klasöründe bulunan tüm `.mp3` dosyalarının bir listesini gösterecektir.
 4. Seçtiğiniz dosyaya karşılık gelen numarayı yazın ve **Enter** tuşuna basın.
